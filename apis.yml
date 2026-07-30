@@ -1,8 +1,28 @@
 aid: mensabrands
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mensabrands.png
 name: Mensabrands
-description: 'Mensabrands is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Mensa Brands (now operating as BRND.ME) is a Bangalore, India based "house
+  of brands" / digital-first brand aggregator founded in 2021 by Ananth Narayanan.
+  Following the Thrasio model, it acquires, operates and scales digital-native consumer
+  brands across fashion, beauty, personal care, home and general merchandise, selling
+  through marketplaces such as Amazon, Flipkart and Myntra as well as direct-to-consumer
+  channels. The company reached unicorn status in 2021 and is backed by investors including
+  Norwest Venture Partners, Accel, Prosus Ventures, Tiger Global and Alpha Wave. Its
+  original domain mensabrands.com now redirects to brndme.in. This is a consumer-brands
+  operating company; enrichment found no public developer or API surface (no docs/developer/api
+  subdomains, no /.well-known documents, no llms.txt) beyond the marketing site''s
+  WordPress CMS, so no API artifacts were produced.'
 url: https://raw.githubusercontent.com/api-evangelist/mensabrands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Ecommerce
+- Consumer Brands
+- House of Brands
+- Direct to Consumer
+- Retail
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://brndme.in/
+- type: Website
   url: https://mensabrands.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
